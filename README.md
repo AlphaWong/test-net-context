@@ -24,3 +24,4 @@ ctx inside original request q = 1234
 # Reference
 1. https://medium.com/@cep21/how-to-correctly-use-context-context-in-go-1-7-8f2c0fafdf39
 1. https://golang.org/pkg/context/#example_WithValue
+1. https://stackoverflow.com/questions/32164223/how-can-i-create-cloud-context-context-from-appengine-context
