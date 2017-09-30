@@ -1,5 +1,5 @@
 # Objective
-Learning what to use context in GO
+Learning how to use context in GO
 
 # Run
 Start server
