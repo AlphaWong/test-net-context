@@ -4,6 +4,23 @@ Learning how to use context in GO
 # Environment
 Go 1.9 +
 
+# Code
+```go
+func getHandler(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
+  ...
+	// Create a context
+
+	// Assign to empty context
+	ctx := context.WithValue(context.Background(), "q", q)
+
+	// Create a context base on original request
+	c := context.WithValue(r.Context(), "q", q)
+	// Assign to original request
+	r = r.WithContext(c)
+  ...
+}
+```
+
 # Run
 Start server
 ```bash
