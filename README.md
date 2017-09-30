@@ -1,6 +1,9 @@
 # Objective
 Learning how to use context in GO
 
+# Environment
+Go 1.9 +
+
 # Run
 Start server
 ```bash
